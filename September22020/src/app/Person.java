@@ -18,9 +18,9 @@ public class Person {
     private final String lastName;
     private final LocalDate birthDate;
     private final int birthMonth;
-    private final String birthDayOfTheWeek;
-    private final int birthDay;
     private final int birthYear;
+    private final String birthDayOfTheWeek;
+    private final int birthDayOfTheMonth;
 
     /**
      * Creates a new person object with the given information
@@ -35,7 +35,7 @@ public class Person {
 
         birthMonth = this.birthDate.getMonthValue();
         birthDayOfTheWeek = this.birthDate.getDayOfWeek().toString();
-        birthDay = this.birthDate.getDayOfMonth();
+        birthDayOfTheMonth = this.birthDate.getDayOfMonth();
         birthYear = this.birthDate.getYear();
     }
     
@@ -71,7 +71,7 @@ public class Person {
             return age;
         }
 
-        if(birthMonth == thisMonth && birthDay > today) {
+        if(birthMonth == thisMonth && birthDayOfTheMonth > today) {
             age--;
         }
         return age;
