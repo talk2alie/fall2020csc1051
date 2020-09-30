@@ -15,6 +15,18 @@ public class Expressions {
         // based on the value of a Booean expression or condition. If the value is true, one 
         // set of statements run and if the value if false, another set run
 
+        int numberOfGirls = 17;
+        int numberOfBoys = 10;
+        int classSize = 30;
+
+        // numberOfGirls == numberOfBoys --> false
+        // numberOfGirls > numberOfBoys  --> true
+        // numberOfGirls >= numberOfBoys --> true
+        // nummberOfBoys != numberGirls --> true
+
+        // (numberOfGirls < numberOfBoys) && ((numberOfBoys + numberOfGirls) < classSize) --> true
+        // numberOfGirls < numberOfBoys || numberOfGirls > nummberOfBoys
+
         System.out.println();
     }
 }
