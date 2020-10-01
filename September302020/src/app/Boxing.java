@@ -10,7 +10,7 @@ public class Boxing {
         /*
          * Primitive type   Wrapper class 
          * ------------------------------
-         * Boolean    ->    Boolean 
+         * boolean    ->    Boolean 
          * byte       ->    Byte 
          * char       ->    Character 
          * Float      ->    Float 
@@ -41,5 +41,11 @@ public class Boxing {
          // As a primitive, the a varaible has no associated properteis oor methods, but we can box it to give it some super powers
          Character letterObject = letter;
          String letterString = letterObject.toString();
+
+
+
+         Boolean isValid = true;
+
+
     }
 }
