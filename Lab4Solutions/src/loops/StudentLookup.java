@@ -32,7 +32,7 @@ public class StudentLookup {
             }
 
             System.out.print("What is the ID of the student you want to look up? ");
-            
+
             var keyboard = new Scanner(System.in);
             int studentId = keyboard.nextInt();
             keyboard.close();
