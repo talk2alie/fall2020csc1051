@@ -1,0 +1,9 @@
+FirstName,LastName,Gender,DateOfBirth
+Mohamed,Pussah,Male,03/28/1983
+Allison,Blake,Non-binary,04/03/1992
+Alisa,Pussah,Female,12/14/2011
+Richard,Okafor,Male,09/17/1999
+Michael,Brown,Male,08/23/1996
+Sylvia,Williams,Female,08/30/1990
+Brian,Kemp,Male,05/10/1975
+Ashley,White,Female,02/14/2002
