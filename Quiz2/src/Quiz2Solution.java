@@ -1,7 +1,4 @@
-/**
- * Question 1. Usually when
- */
-public class Question1 {
+public class Quiz2Solution {
     private static String[] names = new String[5];
     private static int count = 0;
 
